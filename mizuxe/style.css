@@ -1,0 +1,61 @@
+/* Reset */
+.btn,
+.btn-lg,
+.btn-group-lg > .btn,
+.card{
+	border-radius: 0;
+}
+.form-control{
+	border-radius: 0;
+}
+.c-primary{
+	color: #3292ab;
+}
+.border-primary{
+	border-color: #3292ab !important;
+}
+.border-bottom{
+	border-bottom: 1px solid #e9ecef;
+}
+.back-primary{
+	background-color: #3292ab;
+}
+a.c-primary:hover,
+a.c-primary:focus{
+	color: #297889;
+}
+button.back-primary:hover,
+button.back-primary:hover,
+input.back-primary:hover,
+input.back-primary:focus{
+	background-color: #297889;
+	border-color: #297889;
+}
+
+/* BODY */
+body{
+  margin-top: 108px;
+}
+.navbar{
+  box-shadow: 2px 2px 5px #3292ab;
+}
+.nav-item{
+  font-size: 1.4rem;
+}
+#showcase{
+  background: url('assets/img/mountains.jpg') no-repeat scroll left top/cover;
+}
+#showcase .primary-overlay{
+  background: rgba(50, 146, 166, 0.8);
+}
+#authorProfile img{
+	margin-top: -70px;
+}
+#authorProfile .card:hover{
+	color: #fff;
+	background: #3292ab;
+}
+#authorProfile .card:hover a{
+	color: #fff;
+	background: #3292ab;
+}
