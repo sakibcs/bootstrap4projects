@@ -15,34 +15,38 @@
 <body>
   <div class="container">
     <!-- Header Section -->
-    <div class="row">
-      <div class="col-sm-4 pr-sm-0">
-        <img class="img-fluid h-100" src="assets/img/person1.jpg" alt="My PIC">
+    <div id="header-section" class="row no-gutters">
+      <div class="avatar col-sm-4 pr-sm-0">
+        <!-- <img class="img-fluid" src="assets/img/person1.jpg" alt="My PIC"> -->
       </div>
       <div class="col-sm-8 pl-sm-0">
         <div class="d-flex flex-column">
           <div class="d-sm-flex flex-row text-center justify-content-around align-items-center bg-dark text-white">
-            <h1 class="d-block d-sm-inline-block display-4 py-3 py-sm-5 m-0">John Doe</h1>
-            <a class="d-inline-block p-2 p-sm-0" href="#"><i class="fab fa-twitter fa-2x"></i></a>
-            <a class="d-inline-block p-2 p-sm-0" href="#"><i class="fab fa-facebook-f fa-2x"></i></a>
-            <a class="d-inline-block p-2 p-sm-0" href="#"><i class="fab fa-instagram fa-2x"></i></a>
-            <a class="d-inline-block p-2 p-sm-0" href="#"><i class="fab fa-github fa-2x"></i></a>
+            <div>
+              <h1 class="display-4 py-3 py-sm-5 m-0">John Doe</h1>
+            </div>
+            <div>
+              <a class="d-inline-block d-sm-block d-md-inline-block p-2 py-sm-1 px-md-2 px-lg-3" href="#"><i class="fab fa-twitter fa-2x"></i></a>
+            <a class="d-inline-block d-sm-block d-md-inline-block p-2 py-sm-1 px-md-2 px-lg-3" href="#"><i class="fab fa-facebook-f fa-2x"></i></a>
+            <a class="d-inline-block d-sm-block d-md-inline-block p-2 py-sm-1 px-md-2 px-lg-3" href="#"><i class="fab fa-instagram fa-2x"></i></a>
+            <a class="d-inline-block d-sm-block d-md-inline-block p-2 py-sm-1 px-md-2 px-lg-3" href="#"><i class="fab fa-github fa-2x"></i></a>
+            </div>
           </div>
           <div class="bio">
             <h6 class="bg-black text-white m-0 p-4">Experienced Full Stack Web Developer</h6>
           </div>
-          <div class="navigation-menu d-flex text-center">
-            <div class="col bg-primary">
-              <a class="navigation-button d-inline-block py-5" href="#home" data-toggle="collapse"><i class="d-block fas fa-home fa-2x"></i>Home</a>
+          <div class="navigation-menu d-flex text-center text-white">
+            <div class="navigation-button col px-0 px-sm-1 d-inline-block py-5 bg-primary" data-toggle="collapse" data-target="#home">
+              <i class="fas fa-home fa-2x align-middle"></i><span> Home</span>
             </div>
-            <div class="col bg-success">
-              <a class="navigation-button d-inline-block py-5" href="#resume" data-toggle="collapse"><i class="d-block fas fa-graduation-cap fa-2x"></i>Resume</a>
+            <div class="navigation-button col px-0 px-sm-1 d-inline-block py-5 bg-success" data-toggle="collapse" data-target="#resume">
+              <i class="fas fa-graduation-cap fa-2x align-middle"></i><span> Resume</span>
             </div>
-            <div class="col bg-warning">
-              <a class="navigation-button d-inline-block py-5" href="#work" data-toggle="collapse"><i class="d-block fas fa-folder-open fa-2x"></i>Work</a>
+            <div class="navigation-button col px-0 px-sm-1 d-inline-block py-5 bg-warning" data-toggle="collapse" data-target="#work">
+              <i class="fas fa-folder-open fa-2x align-middle"></i><span> Work</span>
             </div>
-            <div class="col bg-danger">
-              <a class="navigation-button d-inline-block py-5" href="#contact" data-toggle="collapse"><i class="d-block fas fa-envelope fa-2x"></i>Contact</a>
+            <div class="navigation-button col px-0 px-sm-1 d-inline-block py-5 bg-danger" data-toggle="collapse" data-target="#contact">
+              <i class="fas fa-envelope fa-2x align-middle"></i><span> Contact</span>
             </div>
           </div>
         </div>
@@ -145,7 +149,7 @@
         <div class="card-body container-body">
           <h2 class="mt-5">What have I built?</h2>
           <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia ad animi veritatis ratione quibusdam totam?</p>
-          <div class="image-gallery row no-gutters">
+          <div class="image-gallery row no-gutters text-center">
             <div class="col-sm-3 p-0">
               <a href="assets/img/work-1.jpg" data-toggle="lightbox" data-gallery="img-gallery">
                 <img class="img-fluid" style="height:260px;" src="assets/img/work-1.jpg" alt="Work">
